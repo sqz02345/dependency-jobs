@@ -21,7 +21,7 @@ jobs:
       - name: running second job
     
         run: |
-          Write-Outpt "Setting up environment..."
+          Write-Output "Setting up environment..."
           choco install python
 
   deploy:
